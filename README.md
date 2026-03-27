@@ -11,5 +11,12 @@
 * Extract color channels using bitwise operations
   - Example:
     - <code>int red = (pixel >> 16) & 0xff;</code>
+* Each pixel is stores as 32 bits:
+  <code>AAAAAAAARRRRRRRRGGGGGGGGBBBBBBBB</code>
+* The bit shifting does this:
+  * <code> >> 24 -> Alpha</code>
+  * <code> >> 16 -> Red</code>
+  * <code> >> 8 -> Green</code>
+  * <code>0xff -> Keepd only 8 bits</code>
 * Source code folder: BasicImagePixels
 
