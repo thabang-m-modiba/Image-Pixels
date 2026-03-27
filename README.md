@@ -1,7 +1,7 @@
 # Learning How To Read Image Pixels with Java
 * In Java:
   * An image is loaded into a <code>BufferedImage</code>
-  * Each pixel is stored as a simple integer
+  * Each pixel is stored as a simple integer, mapped by a "point", as in $(x, y)$ where $x$ represents the width and $y$ represents the height.
   * That integer encodes ARGB values where:
     - A ➡️ Alpha or transparency
     - R ➡️ Red
