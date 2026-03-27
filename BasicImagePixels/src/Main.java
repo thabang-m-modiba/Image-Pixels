@@ -33,7 +33,7 @@ public class Main {
 					int pixel = image.getRGB(x, y);
 					
 					
-					// Extracting the color components
+					// Extracting the color components (Bit shifting)
 					int alpha = (pixel >> 24) & 0xff; // Bitwise operators
 					int red = (pixel >> 16) & 0xff;
 					int green = (pixel >> 8) & 0xff;
