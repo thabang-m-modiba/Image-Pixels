@@ -27,4 +27,4 @@
     - Average of all red, green and blue values.
   * This gives us one color that represents the entire group.
 * Think of it as section an image into rectangles and represent each rectangle with one color.
-* 📁 Source code folder: 
+* 📁 Source code folder: [GroupPixels](https://github.com/thabang-m-modiba/Image-Pixels/tree/ed19c9ac77870b5aee3ae20567a5fb546013caa0/GroupPixels)
