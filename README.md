@@ -18,7 +18,7 @@
   * <code> >> 16 -> Red</code>
   * <code> >> 8 -> Green</code>
   * <code>0xff -> Keepd only 8 bits</code>
-* 📁 Source code folder: BasicImagePixels
+* 📁 Source code folder: [BasicImagePixels](https://github.com/thabang-m-modiba/Image-Pixels/tree/b8bae70a1e052b0f9038cbac1fe557dd20f9f6b3/BasicImagePixels)
 
 ## Grouping Pixels
 * Working with groups of pixels lets us do blurring, downscaling, noise reduction and region analysis.
