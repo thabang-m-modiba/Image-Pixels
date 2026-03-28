@@ -18,5 +18,13 @@
   * <code> >> 16 -> Red</code>
   * <code> >> 8 -> Green</code>
   * <code>0xff -> Keepd only 8 bits</code>
-* Source code folder: BasicImagePixels
+* 📁 Source code folder: BasicImagePixels
 
+## Grouping Pixels
+* Working with groups of pixels lets us do blurring, downscaling, noise reduction and region analysis.
+* Average Color of group of pixels:
+  * Given a group of pixels, the average color is:
+    - Average of all red, green and blue values.
+  * This gives us one color that represents the entire group.
+* Think of it as section an image into rectangles and represent each rectangle with one color.
+* 📁 Source code folder: 
